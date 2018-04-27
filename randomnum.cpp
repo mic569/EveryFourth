@@ -13,7 +13,7 @@ int main()
     vector <int> numbers;
     int count(0), fourer(4);
     ifstream infile;
-    infile.open("E:\\pidatawspaces.txt");
+    infile.open("pidatawspaces.txt");
     if (infile.fail())
     {
         cout << "File Cannot Open\n";
